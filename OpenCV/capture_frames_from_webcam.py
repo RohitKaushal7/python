@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
-# For taking frames from saved video
-video = cv2.VideoCapture('----file_path------')
+# For taking frames from WebCam
+video = cv2.VideoCapture(0)
 
 ptr = 0 # variable to store frame count
 fr = 0 # variable to store frame number catptured
@@ -10,6 +10,7 @@ while(video.isOpened()):
     if ret == True:
         # Remove below comment to convert frames to Gray Scale
         # frame = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
+        cv2. imshow('frame', frame)
         if ptr % 1 == 0: # Change % 1 to capture frames after a specific interval
             cv2.imwrite("frame_no_"+str(fr)+".jpg",frame)
             fr += 1

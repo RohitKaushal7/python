@@ -19,6 +19,4 @@ ___
    - Run to capture frames from a saved video with a specific frame rate
  - #### capture_frames_from_webcam.py
    - Run to capture frames from WebCam with a specific frame rate. To exit press esc key.
- - #### face_detection_using_OpenCV.py
-   - Run to detect your face using WebCam. Draws a rectangle around the detected face. To exit press esc key.  
 

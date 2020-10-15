@@ -10,3 +10,15 @@ ___
 
 
 > to download click program -> raw file -> save as
+
+___
+### OpenCV  -*Image processing*
+>Required Libraries  : `cv2`<br>
+>to install : `$ pip intall opencv-python`
+ - #### capture_frames_from_video.py
+   - Run to capture frames from a saved video with a specific frame rate
+ - #### capture_frames_from_webcam.py
+   - Run to capture frames from WebCam with a specific frame rate. To exit press esc key.
+ - #### face_detection_using_OpenCV.py
+   - Run to detect your face using WebCam. Draws a rectangle around the detected face. To exit press esc key.  
+
